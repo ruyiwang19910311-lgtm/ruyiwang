@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <style></style>
+            </head>
+            <body>
+                
+
+    <meta charset="UTF-8">
+    <title> My 1st caculator</title>
+
+
+   <center> 
+<h3>My Caculator 我的計算機
+</h3>
+<h6>Developer: Lyrics
+    <hr>
+    <input type="text" id="formula">
+    <button onclick="peter()">Caculator!
+    </button>
+    <p id="answer">9</p>
+        
+
+    </h6>
+
+   </center>
+
+
+
+
+                <script>function peter(){
+    var formula=document.getElementById("formula").value;
+    var result=eval(formula);
+    document.getElementById("answer").innerText=result;
+}</script>
+            
+        
+    </body>
